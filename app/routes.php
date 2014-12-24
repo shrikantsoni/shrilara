@@ -17,5 +17,5 @@ Route::get('/', function()
 });
 
 Route::get('test', function(){
-    echo "test route";
+    echo "test";
 });
