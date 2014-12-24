@@ -15,3 +15,7 @@ Route::get('/', function()
 {
 	return View::make('hi');
 });
+
+Route::get('test', function(){
+    echo "test route";
+});
